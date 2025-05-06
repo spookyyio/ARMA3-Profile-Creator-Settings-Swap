@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="500">
-    <Grid>
+        Title="MainWindow" Height="305" Width="500">
+    <Grid x:Name="Newprof_fixed">
         <Button x:Name="bwbutton" Content="Browse" HorizontalAlignment="Left" Margin="25,34,0,0" VerticalAlignment="Top" Click="bwbutton_Click"/>
         <TextBox x:Name="Directorytxt" HorizontalAlignment="Left" Margin="84,34,0,0" TextWrapping="Wrap" Text="Find your profile folder.." VerticalAlignment="Top" Width="378" TextChanged="Directorytxt_TextChanged" MaxLength="378" MaxHeight="17.96"/>
         <TextBlock HorizontalAlignment="Left" Margin="25,10,0,0" TextWrapping="Wrap" Text="Select the profile folder with your old settings" VerticalAlignment="Top" Width="444"/>
@@ -16,7 +16,16 @@
         <TextBox x:Name="Oldprof_name" HorizontalAlignment="Left" Margin="127,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335" TextChanged="Oldprof_name_TextChanged"/>
         <TextBox x:Name="Namenot_fixed" HorizontalAlignment="Left" Margin="127,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335" TextChanged="Namenot_fixed_TextChanged"/>
         <RadioButton x:Name="Swapbtn" Content="Swap settings with old profile" HorizontalAlignment="Left" Margin="25,122,0,0" VerticalAlignment="Top" Checked="Swapbtn_Checked" IsChecked="True"/>
-        <RadioButton x:Name="Createbtn" Content="Create a new profile" HorizontalAlignment="Left" Margin="25,142,0,0" VerticalAlignment="Top" Checked="Createbtn_Checked"/>
+        <RadioButton x:Name="Createbtn" Content="Create a new profile" HorizontalAlignment="Left" Margin="25,204,0,0" VerticalAlignment="Top" Checked="Createbtn_Checked"/>
         <Button x:Name="proceedbtn" Content="Proceed" HorizontalAlignment="Left" Margin="347,127,0,0" VerticalAlignment="Top" Width="77" Click="proceedbtn_Click" IsEnabled="False"/>
+        <Button x:Name="swapbtn" Content="Browse" HorizontalAlignment="Left" Margin="28,158,0,0" VerticalAlignment="Top" Click="swapbtn_Click"/>
+        <TextBox x:Name="newprofiledir" HorizontalAlignment="Left" Margin="80,159,0,0" TextWrapping="Wrap" Text="Find your new profile folder..." VerticalAlignment="Top" Width="232" TextChanged="newprofiledir_TextChanged" MaxHeight="20" MaxLength="10"/>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="25,137,0,0" TextWrapping="Wrap" Text="Select the profile you wish to put this settings on" VerticalAlignment="Top" Width="269"/>
+        <TextBox x:Name="Newprof_notfixed" HorizontalAlignment="Left" MaxLength="20" MaxHeight="20" Margin="80,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="Newprof_notfixed_TextChanged"/>
+        <TextBox x:Name="Newprof_fixedtxt" HorizontalAlignment="Left" MaxLength="20" MaxHeight="20" Margin="205,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="107" TextChanged="Newprof_fixedtxt_TextChanged"/>
+        <TextBox x:Name="newprofile_name" HorizontalAlignment="Left" Margin="28,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" TextChanged="newprofile_name_TextChanged"/>
+        <TextBox x:Name="newprofile_serialized" HorizontalAlignment="Left" Margin="188,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" TextChanged="newprofile_serialized_TextChanged"/>
+        <Label Content="Type your new profile name" HorizontalAlignment="Left" Margin="25,219,0,0" VerticalAlignment="Top"/>
+        <Label Content="Serialized name" HorizontalAlignment="Left" Margin="183,219,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

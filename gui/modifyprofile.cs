@@ -1,11 +1,10 @@
 ﻿using System;
 
-public class modifyprofile
-{
-	public string Name { get; set; }
-
-	public void modifyprofile(String name)
+namespace modifyprofile.exec
+	public class modifyprofile
 	{
-		this.Name = name;
+		public void modifyprofile(String name)
+		{
+		
+		}
 	}
-}
