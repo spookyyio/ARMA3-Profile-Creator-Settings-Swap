@@ -14,7 +14,7 @@ using System.IO;
 using System.Linq.Expressions;
 
 
-namespace WpfApp1
+namespace arma3settingsswap
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

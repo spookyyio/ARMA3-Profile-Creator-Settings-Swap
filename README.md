@@ -1,7 +1,7 @@
 # Spookz ARMA 3 Settings Swapper
 
 ## Description
-Spookz ARMA 3 Settings Swapper is a tool designed to simplify the process of transferring settings from an old ARMA 3 profile to a new one. It automates the process, saving you time and effort.
+Spookz ARMA 3 Settings Swapper is a tool designed to simplify the process of transferring settings from an old ARMA 3 profile to a new one. It automates the process, because I know we all are lazy like that.
 
 ## Features
 - Supports the following ARMA 3 profile files:
