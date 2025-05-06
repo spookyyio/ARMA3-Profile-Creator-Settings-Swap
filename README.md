@@ -26,7 +26,7 @@ There is TWO buttons:
 OR
 - "Create a new Profile"
 
-##Swap settings with old profile
+## "Swap settings with old profile"
 
 "Swap settings with old profile" need a previously created profile folder, ~~this will NOT work if the folder was created by ARMA 3, because the program still does not have the logic to delete old profile settings. (SOON TO BE ADDED). You can create a folder and you need to name it using an HTTP Encoded name which you can get by creating a profile in ARMA 3, then quitting the game, then deleting ALL the files inside the profile folder and THEN using this tool.~~ Fixed, you can now use an ARMA 3 created folder as the tool will delete the old files.
 
